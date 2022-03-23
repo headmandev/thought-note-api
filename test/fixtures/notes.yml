@@ -1,0 +1,12 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+#note_1:
+#  id: 3026d6ce-035d-4cbe-8dc7-41db33845a5f
+#  data: [...]
+#
+
+<% 5.times do |n| %>
+note_<%= n %>:
+  id: <%= SecureRandom.uuid %>
+  data: <%= [{type: "paragraph", children: []}].to_json.html_safe %>
+<% end %>
