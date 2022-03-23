@@ -23,6 +23,7 @@ ___
 
 ```dotenv
 APP_URL=https://your-thougt-note-app.com
+APP_DATABASE_HOST=your-postgresql-host
 APP_DATABASE_NAME=your-postgresql-db-name
 APP_DATABASE_USER=your-postgresql-user-name
 APP_DATABASE_PASSWORD=your-postgresql-user-password
